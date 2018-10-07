@@ -68,7 +68,6 @@ int main() {
     for (int i = 0; i < resultSize; i++) {
       cout << result[i] << '\n';
     }
-
     result.clear();
   }
 
