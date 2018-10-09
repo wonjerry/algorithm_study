@@ -33,7 +33,7 @@ int main() {
   while(testCaseNum--) {
     memset(arr, 0, sizeof(int) * 500);
     memset(d, -1, sizeof(int) * 500);
-
+  
     int arraySize;
     scanf("%d", &arraySize);
 
