@@ -19,7 +19,6 @@ int classify(int start, int end) {
       break;
     }
   }
-
   if(isSame) {
     return 1;
   }
