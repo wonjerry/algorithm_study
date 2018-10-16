@@ -29,6 +29,7 @@ int classify(int start, int end) {
   for (int i = start; i < end; i++) {
     if (!((((pi[i] - '0') + 1 == pi[i + 1] - '0' ) && increase) || (((pi[i] - '0') - 1 == pi[i + 1] - '0' ) && decrease))) {
       isMono = false;
+      break;
     }
   }
 
@@ -59,7 +60,7 @@ int classify(int start, int end) {
     }
   }
 
-  if(isAlter) {
+  if(isArithmetical) {
     return 5;
   }
 
