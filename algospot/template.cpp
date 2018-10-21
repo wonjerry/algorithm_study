@@ -10,5 +10,11 @@
 using namespace std;
 
 int main() {
+  int testCaseNum;
+  scanf("%d", &testCaseNum);
+
+  while(testCaseNum--) {
+    
+  }
   return 0;
 }
